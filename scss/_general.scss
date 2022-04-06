@@ -1,0 +1,39 @@
+body{
+    background-color:rgb(167, 187, 187);
+    color: blue;
+    h1{
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: rgb(34, 4, 65);
+    }
+    .navbar{
+        position:fixed;
+        top:0;
+        width:100%;
+    }
+    #botonera{
+        background-color:$verde-claro;
+    }
+    
+    .btn-shop{
+        background-color: $verde-agua;
+    }
+    
+    .bg-aqua{
+        background-color: $verde-enfermera;
+    }
+    
+    
+    /*Pseudoclases*/    
+    
+    .col-md-8 {
+        h1{
+            &:first-child{
+                background-color: black;
+                color: rgb(73, 52, 12);
+            }
+        }
+        
+    }
+    
+}
+
