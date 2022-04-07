@@ -10,10 +10,9 @@ body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #220441; }
   body .navbar {
-    position: fixed;
     top: 0;
     width: 100%;
-    z-index: 1; }
+    z-index: 10000; }
   body #botonera {
     background-color: #bcf3f3; }
   body .btn-shop {
