@@ -6,9 +6,9 @@ body{
         color: rgb(34, 4, 65);
     }
     .navbar{
-        
         top:0;
         width:100%;
+        z-index:1;
     }
     #botonera{
         background-color:$verde-claro;
