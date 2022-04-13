@@ -1,0 +1,6 @@
+@mixin circulito($size, $radius: 100%) {
+    width: $size;
+    height: $size;
+    border-radius: $radius;
+    
+}

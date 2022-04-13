@@ -1,21 +1,33 @@
 body{
-    background-color:rgb(167, 187, 187);
-    color: blue;
+    background-color:map-get($colors,"beige");
+    color: map-get($colors,"azul");
     h1{
         font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        color: rgb(34, 4, 65);
+        color: map-get($colors,"violeta");
     }
     .navbar{
         top:0;
         width:100%;
-        z-index:10000;
+        z-index: index 10000;
     }
     #botonera{
-        background-color:$verde-claro;
+        background-color: $verde-agua;
     }
     
+    .circulito{
+        @include circulito(56px);
+    }
     .btn-shop{
+        @extend %buttons;
         background-color: $verde-agua;
+        color:  map-get($colors,"amarillo-claro");
+        &:hover{
+            color:  map-get($colors,"verde-oscuro");
+        }
+    }
+    .btn-especial{
+        @extend %buttons;
+        color:map-get($colors,"azul");
     }
     
     .bg-aqua{
@@ -28,8 +40,8 @@ body{
     .col-md-8 {
         h1{
             &:first-child{
-                background-color: black;
-                color: rgb(73, 52, 12);
+                background-color:  map-get($colors,"negro");
+                color:  map-get($colors,"marron");
             }
         }
         

@@ -2,6 +2,15 @@
 body {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
 
+body .btn-shop, body .btn-especial {
+  width: 100px;
+  height: 30px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer; }
+
 body {
   background-color: #a7bbbb;
   color: blue;
@@ -12,15 +21,24 @@ body {
   body .navbar {
     top: 0;
     width: 100%;
-    z-index: 10000; }
+    z-index: index 10000; }
   body #botonera {
-    background-color: #bcf3f3; }
-  body .btn-shop {
     background-color: #30a1a1; }
+  body .circulito {
+    width: 56px;
+    height: 56px;
+    border-radius: 100%; }
+  body .btn-shop {
+    background-color: #30a1a1;
+    color: #e9e9b8; }
+    body .btn-shop:hover {
+      color: #0a4230; }
+  body .btn-especial {
+    color: blue; }
   body .bg-aqua {
     background-color: #61e6e6; }
   body .col-md-8 h1:first-child {
-    background-color: black;
+    background-color: #0f0404;
     color: #49340c; }
 
 footer {
